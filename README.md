@@ -7,7 +7,7 @@ Our goal is to help a rideshare company make informed decisions based upon analy
 
 ## Results
 The figures below (2-7) summarize trends which are of interest to the company. Firstly, we have a scatter plot which provides a visual summary of the data: a scatter plot, which compares the average fare (y axis) to the 
-total rides in a given city (x axis). The size of the point correlates to the number of drivers in the city, and the color indicates the type of city the data point belongs to. The visual summary confirms a trend that the urban rides tend to be more plentiful, but less costly, and in contrast, the rural rides tend to be more profitable per ride, but occur at a much slower rate.
+total rides in a given city (x axis). The size of the point correlates to the number of drivers in the city, and the color indicates the type of city the data point belongs to. The visual summary confirms a trend that the urban rides tend to be more plentiful, but less costly, and in contrast, the rural rides tend to be more profitable per ride but occur at a much slower rate.
 
 ![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/analysis/Fig1.png)
 **Figure 2: Ride Share Data Summary**
@@ -21,7 +21,7 @@ In order to compare the different types of cities, two pie charts which compare 
 ![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/analysis/Fig7.png)
 **Figure 4: Number of Drivers by City Type**
 
-Next, we a DataFrame which includes the total rides, total drivers, total fares, average fare per ride and driver, and total fare for each of the three city types, providing a decent summary of our initial analysis of the data. From this, it is clear that the Urban type city contributes the bulk of each of the "total" comlumns, whearas the Rural city type tends to have the highest average fare. 
+Next, we a DataFrame which includes the total rides, total drivers, total fares, average fare per ride and driver, and total fare for each of the three city types, providing a decent summary of our initial analysis of the data. From this, it is clear that the Urban type city contributes the bulk of each of the "total" columns, whereas the Rural city type tends to have the highest average fare. 
 
 ![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/Images/Fig2.png)
 **Figure 5: Initial DataFrame for Rideshare Analysis**
@@ -31,7 +31,7 @@ We would like to view the trends over time, and to do so we first rearrange the 
 ![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/Images/Fig3.png)
 **Figure 6: DataFrame Indexed by Date**
 
-And finally, we want to visualize the data so we include a line plot of the fare over time, over the span of a few months.
+And finally, we want to visualize the data, so we include a line plot of the fare over time, over the span of a few months.
 
 ![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/analysis/Dev2_Plot.png)
 **Figure 7: Fares VS Date (All City Types)**
@@ -39,5 +39,6 @@ And finally, we want to visualize the data so we include a line plot of the fare
 ## Summary & Conclusions
 From the analyses presented above, we can draw the following conclusions:
 
-1. The number of drivers in urban areas may be slightly too large, and the number of drivers in rural areas may be slightly too small. The suburban area seems to be well balanced. This is supported by the pie charts shown in Figs 3 & 4.
-2. The 
+1. The number of drivers in urban areas may be slightly too large, and the number of drivers in rural and suburban areas may be slightly too small. This is supported by the pie charts shown in Figs 3 & 4, and also the DataFrame in figure 6, showing that the number of urban drivers was higher than the total number of rides. Presumably, some urban drivers never had a chance to have a fare.
+2. The average fare in rural areas may be slightly too high. Perhaps dropping the rate would encourage more riders in this type of city (on the other hand, it may worsen the issue of a lack of drivers to have the fare drop, so it may be a parameter which needs some fine tuning).
+3. The average fare rate tends to stay constant over the months of Jan - April. It may be worthwhile to increase the fare rate during colder seasons, particularly in the urban and suburban areas. The logic here is that potential customers are more likely to choose a car ride versus walking or taking the bus during cold seasons in areas where walking/bike riding makes sense (not in rural, sparse areas).
