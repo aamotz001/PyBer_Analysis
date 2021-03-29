@@ -33,7 +33,7 @@ We would like to view the trends over time, and to do so we first rearrange the 
 
 And finally, we want to visualize the data, so we include a line plot of the fare over time, over the span of a few months.
 
-![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/analysis/Dev2_Plot.png)
+![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/analysis/Pyber_Fare_Summary.png)
 **Figure 7: Fares VS Date (All City Types)**
 
 ## Summary & Conclusions
