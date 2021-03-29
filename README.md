@@ -13,11 +13,6 @@ total rides in a given city (x axis). The size of the point correlates to the nu
 **Figure 3: Initial DataFrame for Rideshare Analysis**
 ![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/analysis/Fig1.png)
 
-Next, we a DataFrame which includes the total rides, total drivers, total fares, average fare per ride and driver, and total fare for each of the three city types, providing a decent summary of our initial analysis of the data. From this, it is clear that the Urban type city contributes the bulk of each of the "total" comlumns, whearas the Rural city type tends to have the highest average fare. 
-
-**Figure 6: Initial DataFrame for Rideshare Analysis**
-![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/Images/Fig2.png)
-
 
 
 **Figure 4: Initial DataFrame for Rideshare Analysis**
@@ -26,11 +21,18 @@ Next, we a DataFrame which includes the total rides, total drivers, total fares,
 **Figure 5: Initial DataFrame for Rideshare Analysis**
 ![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/analysis/Fig7.png)
 
-**Figure 2: Initial DataFrame for Rideshare Analysis**
-![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/analysis/Dev2_Plot.png)
+Next, we a DataFrame which includes the total rides, total drivers, total fares, average fare per ride and driver, and total fare for each of the three city types, providing a decent summary of our initial analysis of the data. From this, it is clear that the Urban type city contributes the bulk of each of the "total" comlumns, whearas the Rural city type tends to have the highest average fare. 
+
+**Figure 6: Initial DataFrame for Rideshare Analysis**
+![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/Images/Fig2.png)
+
 
 **Figure 7: Initial DataFrame for Rideshare Analysis**
 ![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/Images/Fig3.png)
+
+**Figure 2: Initial DataFrame for Rideshare Analysis**
+![alt_text](https://github.com/aamotz001/PyBer_Analysis/blob/main/analysis/Dev2_Plot.png)
+
 
 
 
